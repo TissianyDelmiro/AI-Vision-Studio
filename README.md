@@ -4,6 +4,20 @@ O **IA Vision Studio** é uma plataforma de visão computacional em tempo real q
 
 ---
 
+## 📸 Galeria do Projeto
+*(Espaço reservado para os prints da aplicação)*
+
+### Reconhecimento de Gestos e Sinais
+[Espaço para o print 1]
+
+### Detecção de Objetos com YOLOv8
+[Espaço para o print 2]
+
+### Interface de Controle (FastHTML)
+[Espaço para o print 3]
+
+---
+
 ## ⚡ Desenvolvimento Low Code & IA Assistida
 
 Este projeto foi construído utilizando uma abordagem moderna de desenvolvimento acelerado por Inteligência Artificial, focada em produtividade e resolução de problemas complexos:
@@ -16,19 +30,18 @@ Este projeto foi construído utilizando uma abordagem moderna de desenvolvimento
 
 ## 🚀 Deploy & Infraestrutura (Hugging Face)
 
-Um dos grandes marcos deste projeto foi o **Deploy no Hugging Face Spaces**. O aplicativo está rodando em um container **Docker**, garantindo que todas as dependências (como OpenCV e MediaPipe) funcionem perfeitamente na nuvem, assim como funcionam localmente.
+Um dos grandes marcos deste projeto foi o **Deploy no Hugging Face Spaces**. O aplicativo está rodando em um container **Docker**, garantindo que todas as dependências funcionem perfeitamente na nuvem.
 
 * **Ambiente:** Hugging Face Spaces (SDK Docker)
-* **Processamento:** Otimização de CPU para execução de modelos YOLOv8 e MediaPipe.
-* **Acesse o projeto ao vivo:** 👉 [IA Vision Studio no Hugging Face](https://huggingface.co/spaces/tissiany-delmiro/IA-Vision-Studio)
+* **Acesse o projeto ao vivo:** 👉 [IA Vision Studio no Hugging Face](https://huggingface.co/spaces/Tissiany/AI-Vision-Studio)
 
 ---
 
 ## 🧠 Funcionalidades Principais
 
-* **Reconhecimento de Gestos:** Identificação precisa de sinais (coração, joinha, paz, etc.) utilizando **MediaPipe** e um classificador customizado treinado via **Scikit-Learn**.
+* **Reconhecimento de Gestos:** Identificação precisa de sinais utilizando **MediaPipe** e um classificador customizado treinado via **Scikit-Learn**.
 * **Detecção de Objetos:** Implementação do modelo **YOLOv8** (Ultralytics) para rastreamento de elementos em tempo real.
-* **Interface Interativa:** Painel dinâmico desenvolvido com **FastHTML** e **JavaScript** que permite ativar/desativar camadas de IA e monitorar o FPS.
+* **Interface Interativa:** Painel dinâmico desenvolvido com **FastHTML** e **JavaScript** que permite ativar/desativar camadas de IA.
 
 ---
 
@@ -38,51 +51,41 @@ Um dos grandes marcos deste projeto foi o **Deploy no Hugging Face Spaces**. O a
 * **Visão Computacional:** OpenCV, MediaPipe, Ultralytics (YOLOv8)
 * **Machine Learning:** Scikit-Learn, Joblib
 * **Web Framework:** FastHTML
-* **Infraestrutura:** Docker, Hugging Face Spaces, GitHub
+* **Infraestrutura:** Docker, Hugging Face Spaces
+
+---
+
+## ⚠️ Dicas de Performance e Uso
+
+Durante o desenvolvimento, notamos que o processamento simultâneo de múltiplos modelos pode sobrecarregar a CPU.
+
+* **Melhorar a Webcam:** Para garantir uma taxa de quadros (FPS) mais fluida e reduzir o atraso (lag) na webcam, **recomenda-se desativar a detecção de animais/objetos** quando o foco for apenas o reconhecimento de gestos.
+* **Uso Seletivo:** Ative apenas um modelo por vez no painel lateral para obter a melhor resposta em tempo real.
 
 ---
 
 ## 💻 Como Rodar Localmente
-
-Siga o passo a passo abaixo para clonar o repositório e rodar o projeto na sua máquina:
 
 1.  **Clone o repositório:**
     ```bash
     git clone [https://github.com/tissiany-delmiro/ia-vision-studio.git](https://github.com/tissiany-delmiro/ia-vision-studio.git)
     ```
 
-2.  **Entre na pasta do projeto:**
+2.  **Entre na pasta e crie o ambiente virtual:**
     ```bash
     cd ia-vision-studio
-    ```
-
-3.  **Crie e ative seu ambiente virtual:**
-    ```bash
     python -m venv .venv
-
-    # No Windows:
-    .venv\Scripts\activate
-
-    # No Linux/Mac:
-    source .venv/bin/activate
+    # Ative (.venv\Scripts\activate no Windows ou source .venv/bin/activate no Linux)
     ```
 
-4.  **Instale as dependências:**
+3.  **Instale as dependências e rode:**
     ```bash
     pip install -r requirements.txt
-    ```
-
-5.  **Execute a aplicação:**
-    ```bash
     python app.py
     ```
-    Após rodar, abra o navegador no endereço indicado (geralmente `http://localhost:5001`).
 
 ---
 
 ## 📝 Licença
 
-Este projeto foi desenvolvido para fins educacionais durante o NLW Operador. Sinta-se à vontade para explorar, contribuir e aprender com ele!
-
----
-> **Dica Extra:** Não esqueça de adicionar o link do seu Hugging Face no campo **"Website"** na lateral direita do repositório no GitHub para facilitar o acesso de quem visita seu perfil!
+Desenvolvido para fins educacionais durante o NLW Operador. Sinta-se à vontade para explorar!
