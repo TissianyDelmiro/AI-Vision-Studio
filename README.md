@@ -14,7 +14,8 @@ O **IA Vision Studio** é uma plataforma de visão computacional em tempo real q
 [Espaço para o print 2]
 
 ### Interface de Controle (FastHTML)
-[Espaço para o print 3]
+<img width="1813" height="857" alt="image" src="https://github.com/user-attachments/assets/32d3382e-4c1f-43bf-854e-33798ebc1bd8" />
+
 
 ---
 
