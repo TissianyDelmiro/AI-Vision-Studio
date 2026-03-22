@@ -123,4 +123,4 @@ async def ws(data: dict, send):
         print(f"Erro no WebSocket: {e}")
 
 if __name__ == "__main__":
-    serve(port=5001, host='0.0.0.0')
+    serve(port=7860, host='0.0.0.0')
