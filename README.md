@@ -11,7 +11,7 @@ O **IA Vision Studio** é uma plataforma de visão computacional em tempo real q
 [Espaço para o print 1]
 
 ### Detecção de Objetos com YOLOv8
-<img width="1026" height="555" alt="image" src="https://github.com/user-attachments/assets/676c05c4-421f-464e-9816-f18f592a30be" />
+[ESPAÇO]
 
 
 ### Interface de Controle (FastHTML)
