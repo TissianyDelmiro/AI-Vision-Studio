@@ -23,7 +23,7 @@ O **IA Vision Studio** é uma plataforma de visão computacional em tempo real q
 
 Este projeto foi construído utilizando uma abordagem moderna de desenvolvimento acelerado por Inteligência Artificial, focada em produtividade e resolução de problemas complexos:
 
-* **Prompt Engineering:** Uso estratégico de LLMs para arquitetura de código, lógica de negócio e correção de bugs.
+* **Prompt Engineering:** Uso estratégico do **Gemini** e **Claude** para arquitetura de código, lógica de negócio e correção de bugs.
 * **Antigravity:** Utilização do ambiente Antigravity para prototipagem rápida e testes de fluxos.
 * **VS Code:** Ambiente de desenvolvimento principal para refinamento, integração de sistemas e versionamento.
 
