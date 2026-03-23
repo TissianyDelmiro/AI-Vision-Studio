@@ -59,7 +59,7 @@ Um dos grandes marcos deste projeto foi o **Deploy no Hugging Face Spaces**. O a
 
 ## ⚠️ Dicas de Performance e Uso
 
-Durante o desenvolvimento, notamos que o processamento simultâneo de múltiplos modelos pode sobrecarregar a CPU.
+Durante o desenvolvimento, notei que o processamento simultâneo de múltiplos modelos pode sobrecarregar a CPU.
 
 * **Melhorar a Webcam:** Para garantir uma taxa de quadros (FPS) mais fluida e reduzir o atraso (lag) na webcam, **recomenda-se desativar a detecção de animais/objetos** quando o foco for apenas o reconhecimento de gestos.
 * **Uso Seletivo:** Ative apenas um modelo por vez no painel lateral para obter a melhor resposta em tempo real.
