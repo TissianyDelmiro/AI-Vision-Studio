@@ -7,6 +7,9 @@ O **IA Vision Studio** é uma plataforma de visão computacional em tempo real q
 ## 📸 Galeria do Projeto
 *(Espaço reservado para os prints da aplicação)*
 
+### Interface de Controle (FastHTML)
+<img width="1813" height="857" alt="image" src="https://github.com/user-attachments/assets/32d3382e-4c1f-43bf-854e-33798ebc1bd8" />
+
 ### Reconhecimento de Gestos e Sinais
 [Espaço para o print 1]
 
@@ -15,9 +18,6 @@ Exemplos do modelo identificando animais no ambiente:
 ![Detecção de Gata](images/gata_branquinha.png)
 ![Detecção de Cachorro](images/cachorro_lua.png)
 
-
-### Interface de Controle (FastHTML)
-<img width="1813" height="857" alt="image" src="https://github.com/user-attachments/assets/32d3382e-4c1f-43bf-854e-33798ebc1bd8" />
 
 
 ---
