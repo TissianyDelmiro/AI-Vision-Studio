@@ -1,6 +1,6 @@
-# 🖐️ IA Vision Studio | NLW Operador (Trilha Python)
+# 🖐️ IA Vision Studio | NLW Operator (Trilha Python)
 
-O **IA Vision Studio** é uma plataforma de visão computacional em tempo real que une o poder do **Python** com modelos avançados de Deep Learning. Este projeto foi desenvolvido durante a trilha Python do evento **NLW Operador** da Rocketseat, explorando o potencial de fluxos inteligentes, automação e arquitetura de IA.
+O **IA Vision Studio** é uma plataforma de visão computacional em tempo real que une o poder do **Python** com modelos avançados de Deep Learning. Este projeto foi desenvolvido durante a trilha Python do evento **NLW Operator** da Rocketseat, explorando o potencial de fluxos inteligentes, automação e arquitetura de IA.
 
 ---
 
