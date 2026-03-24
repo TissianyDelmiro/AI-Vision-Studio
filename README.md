@@ -22,14 +22,13 @@ Exemplos do modelo identificando animais no ambiente:
 
 ---
 
-## ⚡ Desenvolvimento Low Code & IA Assistida
+### ⚡ Desenvolvimento Low Code & IA Assistida
 
 Este projeto foi construído utilizando uma abordagem moderna de desenvolvimento acelerado por Inteligência Artificial, focada em produtividade e resolução de problemas complexos:
 
 * **Prompt Engineering:** Uso estratégico do **Gemini** e **Claude** para arquitetura de código, lógica de negócio e correção de bugs.
 * **Antigravity:** Utilização do ambiente Antigravity para prototipagem rápida e testes de fluxos.
 * **VS Code:** Ambiente de desenvolvimento principal para refinamento, integração de sistemas e versionamento.
-
 ---
 
 ## 🚀 Deploy & Infraestrutura (Hugging Face)
@@ -44,7 +43,7 @@ Um dos grandes marcos deste projeto foi o **Deploy no Hugging Face Spaces**. O a
 ## 🧠 Funcionalidades Principais
 
 * **Reconhecimento de Gestos:** Identificação precisa de sinais utilizando **MediaPipe** e um classificador customizado treinado via **Scikit-Learn**.
-* **Detecção de Objetos:** Implementação do modelo **YOLOv8** (Ultralytics) para rastreamento de elementos em tempo real.
+* **Detecção de Animais:** Implementação do modelo **YOLOv8** (Ultralytics) para rastreamento de animais e elementos em tempo real.
 * **Interface Interativa:** Painel dinâmico desenvolvido com **FastHTML** e **JavaScript** que permite ativar/desativar camadas de IA.
 
 ---
@@ -61,11 +60,10 @@ Um dos grandes marcos deste projeto foi o **Deploy no Hugging Face Spaces**. O a
 
 ## ⚠️ Dicas de Performance e Uso
 
-Durante o desenvolvimento, notei que o processamento simultâneo de múltiplos modelos pode sobrecarregar a CPU.
+Durante o desenvolvimento, notei que o processamento simultâneo de múltiplos modelos pode sobrecarregar a CPU, especialmente em ambientes de nuvem gratuitos como o Hugging Face.
 
 * **Melhorar a Webcam:** Para garantir uma taxa de quadros (FPS) mais fluida e reduzir o atraso (lag) na webcam, **recomenda-se desativar a detecção de animais/objetos** quando o foco for apenas o reconhecimento de gestos.
 * **Uso Seletivo:** Ative apenas um modelo por vez no painel lateral para obter a melhor resposta em tempo real.
-
 ---
 
 ## 💻 Como Rodar Localmente
@@ -91,5 +89,4 @@ Durante o desenvolvimento, notei que o processamento simultâneo de múltiplos m
 ---
 
 ## 📝 Licença
-
-Desenvolvido para fins educacionais durante o NLW Operator. Sinta-se à vontade para explorar!
+Desenvolvido para fins educacionais durante o **NLW Operator**. Sinta-se à vontade para explorar!
