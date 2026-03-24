@@ -10,8 +10,10 @@ O **IA Vision Studio** é uma plataforma de visão computacional em tempo real q
 ### Reconhecimento de Gestos e Sinais
 [Espaço para o print 1]
 
-### Detecção de Objetos com YOLOv8
-[ESPAÇO]
+### 🐾 Detecção de Animais (YOLOv8)
+Exemplos do modelo identificando animais no ambiente:
+![Detecção de Gata](images/gata_branquinha.png)
+![Detecção de Cachorro](images/cachorro_lua.png)
 
 
 ### Interface de Controle (FastHTML)
