@@ -92,4 +92,4 @@ Durante o desenvolvimento, notei que o processamento simultâneo de múltiplos m
 
 ## 📝 Licença
 
-Desenvolvido para fins educacionais durante o NLW Operador. Sinta-se à vontade para explorar!
+Desenvolvido para fins educacionais durante o NLW Operator. Sinta-se à vontade para explorar!
